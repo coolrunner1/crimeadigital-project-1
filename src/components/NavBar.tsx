@@ -37,7 +37,7 @@ export const NavBar = () => {
                               fill="#27272A"/>
                     </svg>
 
-                    <div className="hidden md:flex gap-3 text-base font-bold text-gray-500">
+                    <div className="hidden sm:flex gap-3 text-base font-bold text-gray-500">
                         <a href="#main" className="hover:text-purple-600">
                             Main
                         </a>
