@@ -22,3 +22,10 @@
         max-height: 350px;
     }
 }
+
+@media (max-width: 400px) {
+    #background {
+        margin: 40% 40%;
+    }
+}
+
