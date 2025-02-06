@@ -1,7 +1,7 @@
 export const NavBar = () => {
     return (
         <>
-            <header className="bg-white shadow p-5 sm:pr-10 sm:pl-10 lg:pr-20 lg:pl-20">
+            <header className="bg-white shadow p-5 sm:pr-10 sm:pl-10 lg:pr-20 lg:pl-20 font-montserrat">
                 <div className="flex items-center justify-between">
                     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_6138_9)">
@@ -37,7 +37,7 @@ export const NavBar = () => {
                               fill="#27272A"/>
                     </svg>
 
-                    <div className="hidden md:flex gap-3 text-xl font-bold text-gray-500">
+                    <div className="hidden md:flex gap-3 text-base font-bold text-gray-500">
                         <a href="#main" className="hover:text-purple-600">
                             Main
                         </a>

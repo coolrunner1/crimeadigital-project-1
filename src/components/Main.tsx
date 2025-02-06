@@ -1,6 +1,6 @@
 import {MainImage} from "./MainImage.tsx";
 import "../styles/Main.css";
-import {GetInTouchButton} from "./GetInTouchButton.tsx";
+import {Button} from "./Button.tsx";
 
 export const Main = () => {
     return (
@@ -14,7 +14,7 @@ export const Main = () => {
                         <span className="text-xl text-gray-500">
                             Help you to create high-quality digital products that your clients will love and let your business thrive
                         </span>
-                        <GetInTouchButton customStyles={""}/>
+                        <Button customStyles={""} text={"Get in touch"} />
                     </div>
                     <MainImage/>
 

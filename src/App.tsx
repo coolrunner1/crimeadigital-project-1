@@ -4,6 +4,7 @@ import {Footer} from "./components/Footer.tsx";
 import {Main} from "./components/Main.tsx";
 import {AboutMe} from "./components/AboutMe.tsx";
 import {MiddleSection} from "./components/MiddleSection.tsx";
+import {GetInTouch} from "./components/GetInTouch.tsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <AboutMe />
       <MiddleSection />
+      <GetInTouch />
       <Footer />
     </>
   )
