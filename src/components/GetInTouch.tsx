@@ -12,8 +12,8 @@ export const GetInTouch = () => {
                 <form className="bg-white m-auto p-10 my-16 rounded-3xl flex flex-col gap-10">
                     <h2 className="text-2xl sm:text-3xl font-semibold sm:font-bold text-left">Let's discuss your project</h2>
                     <div className="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 gap-6">
-                        <InputField id="name" label="Your full name" placeholder="Name Surname" image="bg-[image:url(./name.svg)]" invalid={!validName} />
-                        <InputField id="email" label="Your email" placeholder="name@example.com" image="bg-[image:url(./mail.svg)]" invalid={!validEmail}/>
+                        <InputField id="name" label="Your full name" placeholder="Name Surname" image="bg-[image:url(/name.svg)]" invalid={!validName} />
+                        <InputField id="email" label="Your email" placeholder="name@example.com" image="bg-[image:url(/mail.svg)]" invalid={!validEmail}/>
                     </div>
                     <label htmlFor="description" className="flex flex-col text-left font-bold text-base">
                         <span>Tell me about your project</span>

@@ -10,9 +10,9 @@ export default {
         'montserrat': ['Montserrat']
       },
       backgroundImage: {
-        'music': "url('./music.svg')",
-        'art': "url('./art.svg')",
-        'photo': "url('./photo.svg')",
+        'music': "url('/music.svg')",
+        'art': "url('/art.svg')",
+        'photo': "url('/photo.svg')",
       },
     },
   },
