@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat']
+      },
+      backgroundImage: {
+        'music': "url('./music.svg')",
+        'art': "url('./art.svg')",
+        'photo': "url('./photo.svg')",
+      },
+    },
   },
   plugins: [],
 }
