@@ -7,7 +7,7 @@ export const InputField = (props: {id: string; label: string; placeholder: strin
                 <span>{props.label} <span className="text-red-700">*</span></span>
                 <input id={props.id} placeholder={"       "+props.placeholder} type="text" required={true}
                        className={"input border border-gray-300 rounded-2xl p-4 [&:not(:placeholder-shown)]:bg-none bg-no-repeat "
-                           +props.image+(props.invalid ? " invalid:border-red-700 bg-[image:url(./error.svg)]" : "")} />
+                           +(props.invalid ? " invalid:border-red-700 bg-[image:url(/error.svg)]" : props.image)} />
             </label>
         </>
     );
