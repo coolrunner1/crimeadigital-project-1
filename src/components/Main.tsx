@@ -1,5 +1,4 @@
 import {MainImage} from "./MainImage.tsx";
-import "../styles/Main.css";
 import {Button} from "./Button.tsx";
 
 export const Main = () => {
