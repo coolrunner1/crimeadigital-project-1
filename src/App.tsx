@@ -7,17 +7,16 @@ import {MiddleSection} from "./components/MiddleSection.tsx";
 import {GetInTouch} from "./components/GetInTouch.tsx";
 
 function App() {
-
-  return (
-    <>
-      <NavBar />
-      <Main />
-      <AboutMe />
-      <MiddleSection />
-      <GetInTouch />
-      <Footer />
-    </>
-  )
+    return (
+        <>
+            <NavBar />
+            <Main />
+            <AboutMe />
+            <MiddleSection />
+            <GetInTouch />
+            <Footer />
+        </>
+    )
 }
 
 export default App
