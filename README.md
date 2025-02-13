@@ -1,4 +1,4 @@
-# A simple responsive webpage made using React + TypeScript + Tailwind
+# A simple responsive webpage built using React + TypeScript + Tailwind
 
 [Nick's personal page](https://coolrunner1.github.io/crimeadigital-project-1/)
 
