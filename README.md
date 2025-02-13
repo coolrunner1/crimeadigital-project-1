@@ -1,10 +1,16 @@
-A simple responsive webpage made using React + TypeScript + Tailwind
+# A simple responsive webpage made using React + TypeScript + Tailwind
 
 [Nick's personal page](https://coolrunner1.github.io/crimeadigital-project-1/)
 
-Requires nodejs 18 lts
+## Running locally
 
-To run as a developer: npm run dev
+- Requires nodejs 18 lts.
 
-To build: npm run build
+- To install dependencies:
+```$ npm install```
 
+- To run as a developer:
+```$ npm run dev```
+  
+- To build:
+```$ npm run build```
