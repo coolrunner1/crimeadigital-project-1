@@ -10,10 +10,14 @@ function App() {
     return (
         <>
             <NavBar />
-            <Main />
-            <AboutMe />
-            <MiddleSection />
-            <GetInTouch />
+            <div className="min-w-screen">
+                <div className="max-w-[2000px] mx-auto">
+                    <Main />
+                    <AboutMe />
+                    <MiddleSection />
+                    <GetInTouch />
+                </div>
+            </div>
             <Footer />
         </>
     )

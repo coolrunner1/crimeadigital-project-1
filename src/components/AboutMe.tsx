@@ -3,7 +3,7 @@ import {AboutMeImage} from "./AboutMeImage.tsx";
 
 export const AboutMe = () => {
     return (
-        <div id="about" className="font-montserrat p-5 mt-3 sm:p-20 sm: max-w-[2000px] mx-auto">
+        <div id="about" className="font-montserrat p-5 mt-3 sm:p-20 sm:mt-0">
             <h2 className="text-2xl sm:text-3xl font-semibold sm:font-bold">About me</h2>
             <div className="flex flex-col gap-4 mt-16">
                 <div className="flex flex-col md:flex-row gap-7 justify-between">
