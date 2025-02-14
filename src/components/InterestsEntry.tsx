@@ -1,4 +1,10 @@
-export const InterestsEntry = (props: {title: string, description: string, image: string}) => {
+export const InterestsEntry = (
+    props: {
+        title: string,
+        description: string,
+        image: string
+    }) => {
+
     return (
         <div className="flex flex-row gap-3">
             <div className="border-2 border-lavender rounded-full p-2 max-h-16">
