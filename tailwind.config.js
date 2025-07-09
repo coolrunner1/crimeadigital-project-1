@@ -14,6 +14,9 @@ export default {
                 'art': "url('/art.svg')",
                 'photo': "url('/photo.svg')",
             },
+            colors: {
+                'lavender': '#7E3AF2',
+            }
         },
     },
     plugins: [],

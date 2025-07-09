@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-lavender {
-    background-color: #7E3AF2;
-}
-
-.border-lavender {
-    border-color: #7E3AF2;
-}
-
 html {
     scroll-behavior: smooth;
 }

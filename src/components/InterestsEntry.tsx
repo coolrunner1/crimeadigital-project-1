@@ -1,9 +1,12 @@
+export type InterestsEntryProps = {
+    title: string,
+    description: string,
+    image: string
+}
+
 export const InterestsEntry = (
-    props: {
-        title: string,
-        description: string,
-        image: string
-    }) => {
+    props: InterestsEntryProps
+) => {
 
     return (
         <div className="flex flex-row gap-3">

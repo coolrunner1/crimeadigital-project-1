@@ -1,9 +1,11 @@
+export type EducationExperienceEntryProps = {
+    years: string,
+    position: string,
+    place: string
+}
+
 export const EducationExperienceEntry = (
-    props: {
-        years: string,
-        position: string,
-        place: string
-    }) => {
+    props: EducationExperienceEntryProps) => {
 
     return (
         <div className="grid grid-rows-1 grid-cols-2 gap-1 text-xl">

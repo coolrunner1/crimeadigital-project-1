@@ -1,13 +1,13 @@
-import "../styles/InputField.css"
+export type InputFieldProps = {
+    id: string;
+    label: string;
+    placeholder: string;
+    image: string;
+    invalid: boolean
+};
 
 export const InputField = (
-    props: {
-        id: string;
-        label: string;
-        placeholder: string;
-        image: string;
-        invalid: boolean
-    }) => {
+    props: InputFieldProps) => {
 
     return (
         <label htmlFor={props.id} className="flex flex-col text-left text-base font-bold">

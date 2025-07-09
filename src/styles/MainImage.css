@@ -29,3 +29,9 @@
     }
 }
 
+@media (min-width: 1300px) {
+    #main-image-container {
+        max-width: 800px;
+        max-height: 700px;
+    }
+}
