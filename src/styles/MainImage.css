@@ -29,9 +29,16 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     #main-image-container {
-        max-width: 800px;
-        max-height: 700px;
+        max-width: 1800px;
+        height: 90vh;
+        max-height: 2000px;
+    }
+    #background {
+        border-radius: 100px;
+        height: calc(100% + 400px);
+        width: calc(100% + 200px);
+        margin: 20% 35%;
     }
 }

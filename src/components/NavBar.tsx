@@ -6,7 +6,7 @@ export const NavBar = () => {
 
     return (
         <>
-            <header className="bg-white shadow p-5 sm:pr-10 sm:pl-10 lg:pr-20 lg:pl-20 font-montserrat">
+            <header className="bg-white fixed z-50 shadow p-5 sm:pr-10 sm:pl-10 lg:pr-20 lg:pl-20 font-montserrat w-screen max-w-full">
                 <div className="flex items-center justify-between">
                     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_6138_9)">
@@ -78,6 +78,7 @@ export const NavBar = () => {
                     </div>
                 </div>
             </header>
+            <div className="p-8 w-screen max-w-full"></div>
             {showBurgerMenu && <BurgerMenu/>}
         </>
     );
