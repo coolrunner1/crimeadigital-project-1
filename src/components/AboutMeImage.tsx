@@ -1,10 +1,8 @@
-import "../styles/AboutMeImage.css";
-
 export const AboutMeImage = () => {
     return (
-        <div id="about-img-container" className="relative overflow-hidden aspect-square m-auto">
-            <img src="/man-about.png" alt="Man Main" id="about-man" className="absolute z-10 bg-gray-100 rounded-full aspect-square object-cover" />
-            <img src="/man-background.jpeg" alt="man background" id="about-bg" className="opacity-70 rounded-full aspect-square"/>
+        <div className="relative w-auto sm:w-[500px] sm:min-w-[300px] lg:min-w-[450px] overflow-hidden aspect-square m-auto">
+            <img src="/crimeadigital-project-1/man-about.png" alt="Man Main" className="w-[90%] h-[90%] m-[5%] absolute z-10 bg-gray-100 rounded-full aspect-square object-cover" />
+            <img src="/crimeadigital-project-1/man-background.jpeg" alt="man background" className="w-full h-full opacity-70 rounded-full aspect-square"/>
         </div>
     );
 };
