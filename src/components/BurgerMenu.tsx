@@ -6,7 +6,7 @@ export const BurgerMenu = () => {
     ]
 
     return (
-        <div className="fixed z-50 flex flex-col p-3 gap-3 items-center bg-white justify-between shadow sm:hidden w-screen">
+        <div className="fixed z-40 flex flex-col p-3 gap-3 items-center bg-white justify-between shadow sm:hidden w-screen animate-slide-in">
             {entries.map((entry) => (
                 <a href={entry.href} className="hover:text-purple-600 text-xl">
                     {entry.label}
